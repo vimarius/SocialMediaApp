@@ -5,6 +5,9 @@ import Register from "./pages/register/register.js";
 
 function App() {
   return <Profile/>;
+  return <Home/>;
+  return <Login/>;
+  return <Register/>; 
 }
 
 export default App;
