@@ -1,5 +1,5 @@
-import Post from "../post/Post";
-import Share from "../share/Share";
+import Post from "../post/post.js";
+import Share from "../share/share.js";
 import "./feed.css";
 import { Posts } from "../../dummyData";
 
