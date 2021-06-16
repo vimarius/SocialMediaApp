@@ -1,17 +1,17 @@
 import "./topbar.css";
-// import { Search, Person, Chat, Notifications } from "@material-ui/icons";
+<script src="https://kit.fontawesome.com/2ee326d61b.js" crossorigin="anonymous"></script>
 
 export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Lamasocial</span>
+        <span className="logo">Social Media App</span>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
-          {/* <Search className="searchIcon" /> */}
+        <span><i class="fas fa-search"></i></span>
           <input
-            placeholder="Search for friend, post or video"
+            placeholder="Search for a friend, post or a video"
             className="searchInput"
           />
         </div>
@@ -35,7 +35,7 @@ export default function Topbar() {
             <span className="topbarIconBadge">1</span>
           </div>
         </div>
-        <img src="/assets/person/1.jpeg" alt="" className="topbarImg"/>
+        <img src="/images/person/1.jpeg" alt="" className="topbarImg"/>
       </div>
     </div>
   );

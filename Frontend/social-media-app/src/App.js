@@ -1,13 +1,11 @@
-import Home from "./pages/home/home.js";
-import Login from "./pages/login/login.js";
-import Profile from "./pages/profile/profile.js";
-import Register from "./pages/register/register.js";
+  
+import Home from "./pages/home/home";
+import Login from "./pages/login/login";
+import Profile from "./pages/profile/profile";
+import Register from "./pages/register/register";
 
 function App() {
   return <Profile/>;
-  return <Home/>;
-  return <Login/>;
-  return <Register/>; 
 }
 
 export default App;
