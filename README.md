@@ -9,3 +9,4 @@ Open terminal: Terminal -> New Terminal
 Command in the opened terminal to install required packages: npm install
 Command in the opened terminal to start the project: npm start
 Check on localhost:3000
+
